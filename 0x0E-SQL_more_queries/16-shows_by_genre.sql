@@ -1,4 +1,4 @@
-sts all shows and linked genres from the database hbtn_0d_tvshows
+-- lists all shows and linked genres from the database hbtn_0d_tvshows
    -- If a show doesn’t have a genre, display NULL in the genre column
    -- Each record should display:
       -- tv_shows.title - tv_genres.name

@@ -1,4 +1,4 @@
-sts all Comedy shows in the database hbtn_0d_tvshows
+-- lists all Comedy shows in the database hbtn_0d_tvshows
 -- displays the number of shows linked to each
    -- Each record should display:
       -- tv_shows.title
