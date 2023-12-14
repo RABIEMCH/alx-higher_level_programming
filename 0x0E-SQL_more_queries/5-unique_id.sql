@@ -1,4 +1,4 @@
-tes the table unique_id on your MySQL server.
+-- creates the table unique_id on your MySQL server.
    -- unique_id description:
       -- id INT - default value 1, must be unique
       -- name VARCHAR(256)

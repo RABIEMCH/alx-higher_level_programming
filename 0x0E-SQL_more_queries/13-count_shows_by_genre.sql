@@ -1,4 +1,4 @@
-sts all genres contained in hbtn_0d_ and the number of shows linked to each
+-- lists all genres contained in hbtn_0d_ and the number of shows linked to each
    -- Each record should display:
       -- <TV Show genre> - <Number of shows linked to this genre>
    -- Results must be sorted in descending order by the number of shows linkeda

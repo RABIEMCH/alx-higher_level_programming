@@ -1,4 +1,4 @@
-tes the database hbtn_0d_usa and the table cities on your MySQL server.
+-- creates the database hbtn_0d_usa and the table cities on your MySQL server.
    -- cities description:
       -- id INT unique - auto generated, cant be null, is a primary key
       -- state_id INT - can't be null, must be a FOREIGN KEY that

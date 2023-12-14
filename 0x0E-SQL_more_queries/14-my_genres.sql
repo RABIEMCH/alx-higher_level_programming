@@ -1,4 +1,4 @@
-sts all genres of the show Dexter.
+-- lists all genres of the show Dexter.
    -- Each record should display:
       -- tv_genres.name
    -- Results must be sorted in ascending order by the genre name
