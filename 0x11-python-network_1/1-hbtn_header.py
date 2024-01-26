@@ -1,12 +1,15 @@
 #!/usr/bin/python3
-"""Python script that fetches https://intranet.hbtn.io/status."""
-
-from urllib import request
+"""A script that:
+- takes in a URL,
+- sends a request to the URL and displays the value
+- of the X-Request-Id variable found in the header ofthe response.
+"""
+import sys
+import urllib.request
 
 if __name__ == "__main__":
-    with request.urlopen("https://intranet.hbtn.io/status") as page:
-        content = page.read()
-        print("Body response:")
-        print("\t- type: {}".format(type(content)))
-        print("\t- content: {}".format(content))
-        print("\t- utf8 content: {}".format(content.decode('utf-8')))
+    url = sys.argv[1]
+
+    request = urllib.request.Request(url)
+    with urllib.request.urlopen(request) as response:
+        print(dict(response.headers).get("X-Request-Id"))
